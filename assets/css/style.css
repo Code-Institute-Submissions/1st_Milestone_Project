@@ -9,6 +9,10 @@ html,body
     overflow-x: hidden; 
 }
 
+.row {
+    justify-content: center;
+}
+
 /* ----------------------------------------Landing Page */
 
 
@@ -26,11 +30,15 @@ html,body
         font-size: 80px;
         font-weight: 500;
         text-shadow: 1px 1px 2px;
+        background-color: rgba(255, 255, 255, 0.192);
+        width: 40%;
     }
     .title {
         font-size: 40px;
         text-shadow: 1px 1px 2px rgb(12, 12, 12);
         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.192);
+        width: 40%;
     }
 }
 
@@ -63,20 +71,26 @@ html,body
     
 }
 
+.header-row {
+    position: relative;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 .landing-page {
     background-image: url("../images/kkV0LO4%20-%20Imgur.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 1000px;
+    height: 1200px;
     min-height: 100%;
-    z-index: -1;
+    
 }
 
 @media (min-width: 768px){
     .landing-page {
-    height: 1374px;
+    height: 1865px;
     }
 }
 
@@ -130,6 +144,7 @@ html,body
     font-family: "Asap", sans-serif; 
     padding-top: 20px;
     padding-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.24);
     
 }
 
@@ -140,12 +155,10 @@ html,body
 
 /* -------------------------------Carousel */
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .carousel-row{
-    padding-left: 100px;
-    padding-right: -35px;
     }
-}
+} */
 
 .carousel-inner > .carousel-item > img { 
     height: 250px; 
@@ -158,7 +171,6 @@ html,body
     .services{ 
         height: 700px;
         width: 100vw;
-        margin-left: 50px; 
         margin-bottom: 10px;
         }
     .carousel-inner > .carousel-item > img {
