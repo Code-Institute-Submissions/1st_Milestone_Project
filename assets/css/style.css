@@ -38,16 +38,19 @@ html,body
 .salonintro {
   justify-content: space-evenly;
   align-items:center;
-  margin-top: 27%;
+  margin-top: 60%;
   height: 200px;
   background-color: rgb(240, 125, 144, 0.4);
+  
 }
 
 @media (min-width: 768px) {
     .salonintro {
     height: 430px;
+    margin-top: 27%;
     }
 }
+
 .salonpic {
     padding-right: 10px;
 
@@ -56,6 +59,7 @@ html,body
 
 .salonpic img {
     width: 100%;
+    border-radius: 50%;
     
 }
 
@@ -158,17 +162,40 @@ html,body
         margin-bottom: 10px;
         }
     .carousel-inner > .carousel-item > img {
-        height: 486px;
+        height: 600px;
     }    
+}
+
+.carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
+    left: none;
 }
 
 .caption {
     font-size: 30px;
-    color:  rgb(245, 125, 145);
+    color:  rgb(245, 87, 113);
     text-shadow:  1px 1px 4px rgb(5, 5, 5);
     height: 200px;
     width: 400px;
 }
 
+.haircut {
+    list-style: none;
+}
 
+.onecaption {
+    left: 5%;
+}
 
+.twocaption {
+    height: 400px;
+}
+
+.threecaption {
+    right: 15%;
+}
+
+.fourcaption {
+    left: 54%;
+}
