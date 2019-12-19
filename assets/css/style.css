@@ -1,53 +1,174 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Prata|Radley&display=swap:100,200,300,400,500,600,700,');
-@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Prata|Radley&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap: 100,200,300,400,500,600,700');
 
 html,body
 {
     width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
 
 /* ----------------------------------------Landing Page */
-.landing-page {
-    background-image: url("../images/lana1.png");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1200px;
-    width: 100vw;
-    background-attachment: fixed;
-    min-height: 100%;
-    z-index: -1;
-}
+
 
 .topcontainer {
   flex-direction: column;
   text-align: right; 
-  padding-top: 20px; 
   width: 80%;
+  color:  rgb(0, 0, 0); 
+  font-family: 'Prata', sans-serif;
+  padding-top: 100px;
 } 
 
-.salonintro {
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 40%;
-  height: 500px;
-  width: 100vw; 
+@media (min-width: 768px) {
+    .name {
+        font-size: 80px;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px;
+    }
+    .title {
+        font-size: 40px;
+        text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        font-weight: 300;
+    }
 }
 
+
+.salonintro {
+  justify-content: space-evenly;
+  align-items:center;
+  margin-top: 27%;
+  height: 200px;
+  background-color: rgb(240, 125, 144, 0.4);
+}
+
+@media (min-width: 768px) {
+    .salonintro {
+    height: 430px;
+    }
+}
 .salonpic {
-    justify-items: space-evenly;
-    background-color: yellow;
-    height: 200px;
-    align-items: center;
+    padding-right: 10px;
+
 }
 
 
 .salonpic img {
-    width: 100px;
+    width: 100%;
+    
 }
+
+.landing-page {
+    background-image: url("../images/kkV0LO4%20-%20Imgur.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@media (min-width: 768px){
+    .landing-page {
+    height: 1374px;
+    }
+}
+
+/* ---------------------------------Salon interior */
+.about {
+    height: 372px;
+}
+
+.salon-about {
+    align-content: center;
+}
+
+
+.salon-interior {
+    background-image: url("../images/salon1.png");
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100vw;
+    min-height: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.about-link { 
+  font-family: 'Asap', sans-serif;
+    font-weight: 400;
+    background-color: rgba(243, 241, 241, 0.2);
+    margin-top: 30px;
+
+}
+    
+
+.salon-description {
+    font-family: 'Radley', sans-serif;
+    background-color: rgba(248, 247, 247, 0.2);
+    font-size: 26px;
+    text-align: right;
+    margin-right: 20px;  
+}
+
+/* -------------------------------Services */
+
+#services{
+     margin:0; 
+}
+
+.services {
+    font-family: "Asap", sans-serif; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.services h1{
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+/* -------------------------------Carousel */
+
+@media (min-width: 768px){
+    .carousel-row{
+    padding-left: 100px;
+    padding-right: -35px;
+    }
+}
+
+.carousel-inner > .carousel-item > img { 
+    height: 250px; 
+    width: 600px;
+    
+   
+}
+
+@media (min-width: 768px){
+    .services{ 
+        height: 700px;
+        width: 100vw;
+        margin-left: 50px; 
+        margin-bottom: 10px;
+        }
+    .carousel-inner > .carousel-item > img {
+        height: 486px;
+    }    
+}
+
+.caption {
+    font-size: 30px;
+    color:  rgb(245, 125, 145);
+    text-shadow:  1px 1px 4px rgb(5, 5, 5);
+    height: 200px;
+    width: 400px;
+}
+
+
+
