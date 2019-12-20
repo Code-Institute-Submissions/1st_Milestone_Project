@@ -53,7 +53,7 @@ html,body
 @media (min-width: 768px) {
     .salonintro {
     height: 430px;
-    margin-top: 6%;
+    margin-top: 2%;
     position: fixed;
     background-attachment: fixed;
     }
@@ -97,9 +97,14 @@ html,body
 /* ---------------------------------Salon interior */
 
 .about {
-    height: 659px;
+    height: 400px;
 }
 
+@media (min-width: 768px) {
+    .about {
+    height: 659px;
+    }
+}
 
 .salon-about {
     align-content: center;
