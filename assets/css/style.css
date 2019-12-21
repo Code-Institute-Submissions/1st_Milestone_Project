@@ -13,6 +13,11 @@ html,body
     margin-right: 0;
 }
 
+.col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* ----------------------------------------Landing Page */
 
 
@@ -158,7 +163,7 @@ html,body
 
 @media (min-width: 768px) {
     .service-carousel {
-        height: 740px;
+        height: 700px;
     }
 }
 
@@ -170,16 +175,9 @@ html,body
 
 /* -------------------------------Carousel */
 
-/* @media (min-width: 768px){
-    .carousel-row{
-    }
-} */
-
 .carousel-inner > .carousel-item > img { 
     height: 250px; 
     width: 600px;
-    
-   
 }
 
 @media (min-width: 768px){
@@ -225,4 +223,106 @@ html,body
 
 .fourcaption {
     left: 54%;
+}
+
+/* --------------------------------Pricelist */
+
+
+
+.pricelist-section {
+    height: 500px;
+}
+
+@media (min-width: 768px) {
+    .pricelist-section {
+        height: 900px;
+    }
+} 
+
+
+.pricelist-bg {
+    background-image: url("../images/salon2.jpg");
+    background-size: 430px 500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    min-height: 100%; 
+}
+
+@media (min-width: 768px) {
+    .pricelist-bg {
+        background-size: cover;
+    }
+} 
+
+.pricelist-item {
+    padding: 2em 2em 1em 2em;
+    position: relative;
+    color:#7e31c5;
+    border-left: 1px solid;
+}
+
+.pricelist-item:before {
+    content: attr(data-target);
+    position: absolute;
+    left: 2.5em;
+    top: 1em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0,8em;
+    padding: 0;
+    margin: 0;
+}
+
+ .pricelist-item:after {
+    width: 8px;
+    height: 8px;
+    display: block;
+    top: 45px;
+    position: absolute;
+    left: 15px;
+    border-radius: 12px;
+    content: '';
+    background: #e4e3ee;
+}
+
+/* --------------------------------Contact */
+
+.contact-bg {
+    background-image: url("../images/price1.jpg");
+    background-size: 700px auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+ @media (min-width: 768px) {
+    .contact-bg {
+        background-size: cover;
+    }
+}
+
+
+.contact-heading {
+    padding-top: 15%;
+}
+
+.center-form {
+    padding-bottom: 7%;
+}
+
+/* ---------------------------Footer */
+
+footer {  
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-social {
+    background-image: url("../images/purple.png");
+}
+
+.social-links {
+    font-size: 26px;
+    color: black;
 }
