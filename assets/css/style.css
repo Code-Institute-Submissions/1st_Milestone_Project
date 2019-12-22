@@ -67,22 +67,39 @@ html,body
 
 /* -----------------------------Navbar */
 
-
+.navbar-nav {
+    flex-direction: row; 
+    justify-content: center;
+}
 
 .salonintro {
   justify-content: space-evenly;
   background-color: rgb(240, 125, 144, 0.4);
   margin-top: 50%;
   position: fixed;
+  display: flex;
+  z-index: 3;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
     .salonintro {
     height: 430px;
     margin-top: 2%;
-    position: fixed;
-    background-attachment: fixed;
+    position: scroll;
+    background-attachment: scroll;
     }
+}
+
+.salonintro a{
+    color: black;
+}
+
+.line {
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 .salonpic {
@@ -121,7 +138,7 @@ html,body
 
 @media (min-width: 768px) {
     .about {
-    height: 659px;
+    height: 800px;
     }
 }
 
@@ -145,7 +162,7 @@ html,body
 
 @media (min-width: 768px) {
     .salon-interior {
-        height: 720px;
+        height: 800px;
     }
 }
 
