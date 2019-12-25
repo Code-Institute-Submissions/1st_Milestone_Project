@@ -46,14 +46,15 @@ button {
     }
 }
 
-.hamburger:hover line{
+.line:hover {
     color:#7e31c5;
+    transform: rotateX(90deg);
 }
 
-.hamburger:before {
+/* .hamburger:before {
     transition: 0.35s ease-in-out;
     transform:scale(1.2,1.2);
-}
+} */
 
 .salonintro a{
     color: black;
@@ -61,9 +62,9 @@ button {
 
 .line {
     width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+    height: 5px;
+    background-color: pink;
+    margin: 6px 0;
 }
 
 .salonpic {
@@ -184,7 +185,7 @@ button {
 
 
 .about-link { 
-  font-family: 'Prata', sans-serif;
+    font-family: 'Prata', sans-serif;
     font-weight: 400;
     background-color: rgba(243, 241, 241, 0.2);
     margin-top: 30px;
@@ -226,6 +227,10 @@ button {
 }
 
 /* -------------------------------Carousel */
+
+.carousel-inner {
+    padding-top: 20px;
+}
 
 .carousel-inner > .carousel-item > img { 
     height: 250px; 
@@ -279,10 +284,16 @@ button {
 
 /* --------------------------------Pricelist */
 
-
+.pricelist-list-title {
+    font-family: 'Prata', sans-serif;
+    font-weight: 400;
+    background-color: rgba(243, 241, 241, 0.2);
+    margin-top: 30px;
+    color: rgb(46, 1, 1);
+}
 
 .pricelist-section {
-    height: 500px;
+    height: 700px;
 }
 
 @media (min-width: 768px) {
@@ -294,7 +305,7 @@ button {
 
 .pricelist-bg {
     background-image: url("../images/salon2.jpg");
-    background-size: 430px 500px;
+    background-size: 600px 700px;
     background-attachment: scroll;
     background-repeat: no-repeat;
     min-height: 100%; 
@@ -310,7 +321,8 @@ button {
     padding: 2em 2em 1em 2em;
     position: relative;
     color:#7e31c5;
-    border-left: 1px solid;
+   background-color: rgba(255, 255, 255, 0.4);
+   margin: 20px;
 }
 
 .pricelist-item:before {
@@ -336,6 +348,10 @@ button {
     border-radius: 12px;
     content: '';
     background: #e4e3ee;
+}
+
+.pricelist-list {
+    flex-direction: row;
 }
 
 /* --------------------------------Contact */
