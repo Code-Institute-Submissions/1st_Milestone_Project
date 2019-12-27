@@ -19,6 +19,13 @@ html,body
     padding-right: 0;
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /* -----------------------------Navbar */
 
 .navbar-nav {
@@ -293,7 +300,7 @@ button {
 }
 
 .pricelist-section {
-    height: 700px;
+    height: 1138px;
 }
 
 @media (min-width: 768px) {
@@ -305,7 +312,7 @@ button {
 
 .pricelist-bg {
     background-image: url("../images/salon2.jpg");
-    background-size: 600px 700px;
+    background-size: 600px 1200px;
     background-attachment: scroll;
     background-repeat: no-repeat;
     min-height: 100%; 
