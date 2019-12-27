@@ -194,9 +194,10 @@ button {
 .about-link { 
     font-family: 'Prata', sans-serif;
     font-weight: 400;
-    background-color: rgba(243, 241, 241, 0.2);
     margin-top: 30px;
     color: rgb(46, 1, 1);
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 50px;
 }
     
 
@@ -208,16 +209,11 @@ button {
     margin-right: 20px;  
 }
 
-/* @media (min-width: 768px){
-    .carousel-row {
-        display
-    }
-} */
 /* -------------------------------Services */
 
 .services {
     font-family: "Asap", sans-serif; 
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     
 }
 
@@ -234,6 +230,10 @@ button {
 }
 
 /* -------------------------------Carousel */
+
+.carousel-row {
+    margin-top:50px;
+}
 
 .carousel-inner {
     padding-top: 20px;
@@ -294,7 +294,7 @@ button {
 .pricelist-list-title {
     font-family: 'Prata', sans-serif;
     font-weight: 400;
-    background-color: rgba(243, 241, 241, 0.2);
+    background-color: rgba(243, 241, 241, 0.747);
     margin-top: 30px;
     color: rgb(46, 1, 1);
 }
@@ -327,8 +327,8 @@ button {
 .pricelist-item {
     padding: 2em 2em 1em 2em;
     position: relative;
-    color:#7e31c5;
-   background-color: rgba(255, 255, 255, 0.4);
+    color:#111111;
+   background-color: rgba(255, 255, 255, 0.623);
    margin: 20px;
 }
 
