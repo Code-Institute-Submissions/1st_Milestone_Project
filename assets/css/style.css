@@ -9,7 +9,6 @@ html,body
 }
 
 .row {
-    /* justify-content: center; */
     margin-left: 0;
     margin-right: 0;
 }
@@ -26,6 +25,26 @@ html,body
     margin-left: 0;
 }
 
+/* ----------------------------------------Landing Page */
+.landing-page {
+    background-image: url("../images/kkV0LO4%20-%20Imgur.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    height: 800px;
+    display: block;
+}
+
+@media (min-width: 768px){
+    .landing-page {
+   height: 1600px;
+    background-attachment: scroll;
+    background-size: 1444px;
+    background-position-x: right;
+    }
+}
+
 /* -----------------------------Navbar */
 
 .navbar-nav {
@@ -37,31 +56,6 @@ button {
     align-self: flex-start;
 }
 
-.salonintro {
-  justify-content: space-evenly;
-  position: fixed;
-  display: flex;
-  z-index: 3;
-  flex-direction: column;
-}
-
-@media (min-width: 768px) {
-    .salonintro {
-    margin-top: 2%;
-    position: scroll;
-    background-attachment: scroll;
-    }
-}
-
-.line:hover {
-    color:#7e31c5;
-    transform: rotateX(90deg);
-}
-
-/* .hamburger:before {
-    transition: 0.35s ease-in-out;
-    transform:scale(1.2,1.2);
-} */
 
 .salonnav a{
     color: black;
@@ -101,30 +95,6 @@ button {
 }
 
 
-/* ----------------------------------------Landing Page */
-
-
-.landing-page {
-    background-image: url("../images/kkV0LO4%20-%20Imgur.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100%;
-    height: 520px;
-    display: block;
-    
-    
-}
-
-@media (min-width: 768px){
-    .landing-page {
-   height: 1600px;
-    background-attachment: scroll;
-    background-size: 1444px;
-    background-position-x: right;
-    }
-}
-
 .topcontainer {
   flex-direction: column;
   text-align: right; 
@@ -152,17 +122,15 @@ button {
 }
 
 
-
-
 /* ---------------------------------About Us */
 
 .about {
-    height: 580px;
+    height: 600px;
 }
 
 @media (min-width: 768px) {
     .about {
-    height: 800px;
+    height: 960px;
     }
 }
 
@@ -170,34 +138,28 @@ button {
     align-content: center;
 }
 
-
 .salon-interior {
     background-image: url("../images/salon1.png");
     display: block;
     background-position: center;
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
-    height: 580px;
-    /* width: 100vw; */
-    /* min-height: 100%; */
-    background-attachment: fixed;
-    margin: 0;
-}
-
-@media (min-width: 768px) {
-    .salon-interior {
-        height: 800px;
+    height: 767px;
+    background-attachment: scroll;
+    margin-top: 50px;
+    margin-bottom: 50px
     }
-}
+
+
 
 
 .about-link { 
     font-family: 'Prata', sans-serif;
     font-weight: 400;
-    margin-top: 30px;
     color: rgb(46, 1, 1);
     background-color: rgba(255, 255, 255, 0.692);
-    width: 50px;
+    width: 161px;
+    margin-top: 30px;
 }
     
 
@@ -209,10 +171,34 @@ button {
     margin-right: 20px;  
 }
 
+@media (min-width: 600px) {
+.salon-interior {
+    background-image: url("../images/salon1.png");
+    display: block;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    height: 580px;
+    background-attachment: scroll;
+    margin-top: 50px;
+    margin-bottom: 50px
+    }
+.about-link {
+    width: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .salon-interior {
+        height: 800px;
+        margin-top: 100px;
+    }
+}
+
 /* -------------------------------Services */
 
 .services {
-    font-family: "Asap", sans-serif; 
+    font-family: 'Asap', sans-serif; 
     padding-bottom: 5px;
     
 }
@@ -227,6 +213,9 @@ button {
 .services h1{
     padding-left: 30px;
     font-weight: 400;
+    background-color: rgba(255, 192, 203, 0.842);
+    font-family: 'Radley', sans-serif;
+    text-align: center;
 }
 
 /* -------------------------------Carousel */
@@ -294,7 +283,7 @@ button {
 .pricelist-list-title {
     font-family: 'Prata', sans-serif;
     font-weight: 400;
-    background-color: rgba(243, 241, 241, 0.747);
+    background-color: rgba(243, 241, 241, 0.822);
     margin-top: 30px;
     color: rgb(46, 1, 1);
 }
@@ -306,6 +295,9 @@ button {
 @media (min-width: 768px) {
     .pricelist-section {
         height: 900px;
+    }
+    .pricelist-list-title {
+        margin-top: 80px;
     }
 } 
 
