@@ -6,6 +6,7 @@ html,body
 {
     width: 100%;
     margin: 0px;
+    background-color: rgba(241, 182, 192, 0.836);
 }
 
 .row {
@@ -68,14 +69,14 @@ button {
     margin: 6px 0;
 }
 
-.salonpic {
+.navitem-pic {
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.salonpic a {
+.navitem-pic a {
     color: rgb(2, 44, 1);
     font-weight: 700;
     font-size: 14px;
@@ -84,7 +85,7 @@ button {
     text-transform: uppercase;
 }
 
-.salonpic img {
+.navitem-pic img {
     width: 100%;
     border-radius: 50%;
     
@@ -128,17 +129,12 @@ button {
     height: 600px;
 }
 
-@media (min-width: 768px) {
-    .about {
-    height: 960px;
-    }
-}
 
-.salon-about {
+.about-title {
     align-content: center;
 }
 
-.salon-interior {
+.about-bg {
     background-image: url("../images/salon1.png");
     display: block;
     background-position: center;
@@ -151,9 +147,7 @@ button {
     }
 
 
-
-
-.about-link { 
+.about-title { 
     font-family: 'Prata', sans-serif;
     font-weight: 400;
     color: rgb(46, 1, 1);
@@ -162,8 +156,7 @@ button {
     margin-top: 30px;
 }
     
-
-.salon-description {
+.about-description {
     font-family: 'Radley', sans-serif;
     background-color: rgb(240, 125, 144, 0.4);
     font-size: 26px;
@@ -172,7 +165,7 @@ button {
 }
 
 @media (min-width: 600px) {
-.salon-interior {
+.about-bg {
     background-image: url("../images/salon1.png");
     display: block;
     background-position: center;
@@ -183,15 +176,18 @@ button {
     margin-top: 50px;
     margin-bottom: 50px
     }
-.about-link {
+.about-title {
     width: 50px;
     }
 }
 
 @media (min-width: 768px) {
-    .salon-interior {
+    .about-bg {
         height: 800px;
         margin-top: 100px;
+    }
+    .about {
+    height: 960px;
     }
 }
 
@@ -215,7 +211,6 @@ button {
     font-weight: 400;
     background-color: rgba(255, 192, 203, 0.842);
     font-family: 'Radley', sans-serif;
-    text-align: center;
 }
 
 /* -------------------------------Carousel */
@@ -225,7 +220,7 @@ button {
 }
 
 .carousel-inner {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .carousel-inner > .carousel-item > img { 
@@ -244,46 +239,14 @@ button {
     }    
 }
 
-.carousel-caption {
-    padding-top: 0;
-    padding-bottom: 0;
-    left: none;
-}
 
-.caption {
-    font-size: 30px;
-    color:  rgb(245, 87, 113);
-    text-shadow:  1px 1px 4px rgb(5, 5, 5);
-    height: 200px;
-    width: 400px;
-}
-
-.haircut {
-    list-style: none;
-}
-
-.onecaption {
-    left: 5%;
-}
-
-.twocaption {
-    height: 400px;
-}
-
-.threecaption {
-    right: 15%;
-}
-
-.fourcaption {
-    left: 54%;
-}
 
 /* --------------------------------Pricelist */
 
 .pricelist-list-title {
     font-family: 'Prata', sans-serif;
     font-weight: 400;
-    background-color: rgba(243, 241, 241, 0.822);
+    background-color: rgba(243, 241, 241, 0.904);
     margin-top: 30px;
     color: rgb(46, 1, 1);
 }
@@ -319,9 +282,12 @@ button {
 .pricelist-item {
     padding: 2em 2em 1em 2em;
     position: relative;
-    color:#111111;
-   background-color: rgba(255, 255, 255, 0.623);
+   color: rgb(46, 1, 1);
+   background-color: rgba(255, 255, 255, 0.712);
    margin: 20px;
+   text-align: center;
+   font-family: 'Radley', sans-serif;
+   font-weight: 600;
 }
 
 .pricelist-item:before {
@@ -330,24 +296,15 @@ button {
     left: 2.5em;
     top: 1em;
     display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-family: 'Radley', sans-serif;
+    font-weight: 600;
     font-size: 0,8em;
     padding: 0;
     margin: 0;
+    color: rgb(73, 71, 71);  
+    padding-bottom: 5px;
 }
 
- .pricelist-item:after {
-    width: 8px;
-    height: 8px;
-    display: block;
-    top: 45px;
-    position: absolute;
-    left: 15px;
-    border-radius: 12px;
-    content: '';
-    background: #e4e3ee;
-}
 
 .pricelist-list {
     flex-direction: row;
@@ -386,10 +343,20 @@ footer {
 }
 
 .footer-social {
-    background-image: url("../images/purple.png");
+    margin-top: 6px;
 }
 
 .social-links {
     font-size: 26px;
     color: black;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.social-links i {
+    font-size: 30px;
+    color:  rgb(37, 37, 37);
+    margin-top: 5px;
 }
