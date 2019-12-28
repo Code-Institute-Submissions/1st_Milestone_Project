@@ -137,7 +137,7 @@ button {
 .about-bg {
     background-image: url("../images/salon1.png");
     display: block;
-    background-position: center;
+    background-position: top;
     background-size: 80%;
     background-repeat: no-repeat;
     height: 767px;
@@ -152,7 +152,7 @@ button {
     font-weight: 400;
     color: rgb(46, 1, 1);
     background-color: rgba(255, 255, 255, 0.692);
-    width: 161px;
+    /* width: 161px; */
     margin-top: 30px;
 }
     
@@ -162,6 +162,7 @@ button {
     font-size: 26px;
     text-align: right;
     margin-right: 20px;  
+    color: black;
 }
 
 @media (min-width: 600px) {
@@ -177,17 +178,22 @@ button {
     margin-bottom: 50px
     }
 .about-title {
-    width: 50px;
+    width: 500px;
+    height: 100px;
+    padding-top: 30px;
     }
 }
 
 @media (min-width: 768px) {
     .about-bg {
         height: 800px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .about {
-    height: 960px;
+    height: 820px;
+    }
+    .about-description {
+        font-size: 30px;
     }
 }
 
@@ -196,12 +202,14 @@ button {
 .services {
     font-family: 'Asap', sans-serif; 
     padding-bottom: 5px;
-    
 }
+
 
 @media (min-width: 768px) {
     .service-carousel {
         height: 700px;
+        margin-left: 45px;
+
     }
 }
 
@@ -252,26 +260,26 @@ button {
 }
 
 .pricelist-section {
-    height: 1138px;
+    height: 1200px;
 }
 
 @media (min-width: 768px) {
     .pricelist-section {
-        height: 900px;
+        height: 850px;
     }
     .pricelist-list-title {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 } 
 
 
-.pricelist-bg {
+/* .pricelist-bg {
     background-image: url("../images/salon2.jpg");
-    background-size: 600px 1200px;
+    background-size: auto 1200px;
     background-attachment: scroll;
     background-repeat: no-repeat;
     min-height: 100%; 
-}
+} */
 
 @media (min-width: 768px) {
     .pricelist-bg {
@@ -314,25 +322,52 @@ button {
 
 .contact-bg {
     background-image: url("../images/price1.jpg");
-    background-size: 700px auto;
+    background-size: 750px auto;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: 80%;
 }
 
  @media (min-width: 768px) {
     .contact-bg {
-        background-size: cover;
+        background-size: 1616px auto;
     }
 }
 
 
 .contact-heading {
-    padding-top: 15%;
+    margin-top: 15%;
+    font-family: 'Prata', sans-serif;
+    color: rgb(46, 1, 1);
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin-right: 10px;
+}
+
+ @media (min-width: 768px) {
+    .contact-heading {
+        text-align: center;
+    }
+}
+
+.contact-subheading {
+    font-family: 'Radley', sans-serif;
+    color: rgb(46, 1, 1);
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.contact-subprint {
+    font-family: 'Radley', sans-serif;
+    color: rgb(46, 1, 1);
+    background-color: rgba(255, 255, 255, 0.616);
 }
 
 .center-form {
     padding-bottom: 7%;
+}
+
+.makeover {
+    color: rgb(97, 9, 9);
 }
 
 /* ---------------------------Footer */
@@ -344,6 +379,12 @@ footer {
 
 .footer-social {
     margin-top: 6px;
+}
+
+ @media (min-width: 768px) {
+    .footer-social {
+    margin-top: 10px;
+}
 }
 
 .social-links {
@@ -358,5 +399,4 @@ footer {
 .social-links i {
     font-size: 30px;
     color:  rgb(37, 37, 37);
-    margin-top: 5px;
 }
