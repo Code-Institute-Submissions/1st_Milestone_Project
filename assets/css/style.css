@@ -44,8 +44,14 @@ html,body
 /* -----------------------------Navbar */
 
 nav {
-    height: 600px;
+    height: 680px;
     width: 100vw;
+}
+
+.navbar {
+    flex-wrap: wrap-reverse;
+    align-items: unset;
+    padding: 0rem 0rem;
 }
 
 @media (min-width: 768px){
@@ -59,6 +65,7 @@ nav {
     align-items: center;
     height: 630px;
     padding-bottom: 70px;
+    padding-top: 55px;
 }
 
 @media (min-width: 768px){
@@ -77,16 +84,22 @@ nav {
 
 
 
-.hamburger {
+.hamburger-inner {
     height: 40px;
 }
 
 @media (min-width: 768px){
-    .hamburger {
+    .hamburger-inner {
         height: 65px;
         width: 65px;
     } 
 }
+
+.hamburger-box {
+    width: 100%;
+    display: inline-block;
+}
+
 
 
 .navbar-toggler {
@@ -95,8 +108,9 @@ nav {
     top: 20px;
 }
 
+
 .navbar-collapse {
-    background-color: rgba(255, 192, 203, 0.938);
+    background-color: rgba(179, 129, 137, 0.938);
     border-radius: 0px 0px 0px 293px;
 }
 
@@ -120,6 +134,10 @@ nav {
         margin: 8px 0;
     }
 } 
+
+.line:hover {
+    background-color: gray;
+}
 
 .navitem-pic {
     align-items: center;
