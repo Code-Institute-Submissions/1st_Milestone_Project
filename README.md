@@ -1,30 +1,66 @@
-Pure Ambitions Salon
+First Milestone Project: 
 
-A salon, in a rich neighborhood in Östermalm, Stockholm, needs an upgrade. The salon's website does not reflect the salon's over-all identity. While making this website, I envisioned how the salon's interior, their services and their products. 
+   A Salon Website with HTML and CSS 
+
 
 https://loulunds.github.io/1st_Milestone_Project/
 
-UX
+_______________UX_______________
+
+--Pure Ambitions Salon
+
+A salon, in a neighborhood in Östermalm, Stockholm, needs an upgrade. 
+The salon's present website does not reflect the salon's over-all identity.
+While making this website, I envisioned the salon's interior their services.
+
+USER STORIES
+
+-As a CUSTOMER, I want to have a feel of the salon's interior and services. 
+(I thought about focusing on this because almost all salons offer the same services. 
+What should set this salon apart is how its website is presented.)
+
+-As an OWNER, I want customers to book a call.
+(By reflecting the salon throught the website, customers can become more interested in booking a call
+and leaving their contact details.)
 
 
-Feature
+_____________FEATURES_____________
 
-Existing Features
-1. 
-Feaures left ot implement
+EXISTING FEATURES
 
-Technologies Used
+Carousel for images from Bootstrap
+Animate on Scroll 
 
-Testing
+FEATURES LEFT TO IMPLEMENT
 
-Deployment
+A photo gallery for the salon's works
 
-Credits
+__________TECHNOLOGIES USED__________
 
-Content
+1. HTML
+2. CSS
+3. Bootstrap 4.4.1
+4. Javascript (for carousel and animation)
+5. Animation on scroll from https://github.com/michalsnik/aos
+6. Font Awesome 4.7.0
 
-Media
+
+________________TESTING________________
+
+
+
+_______________DEPLOYMENT_______________
+
+_________________CREDITS_________________
+
+MEDIA
+
+The photos were obtained from google as to this website is for educational purposes only.
+Google search: Lana del Rey
+Google search: Hairsalon
 
 Acknowledgements
-https://github.com/michalsnik/aos
+
+I received inspiration from https://www.youtube.com/watch?v=fzwOBOjSto8 (Top 5 Web Design Trends 2019). 
+I got some ideas that I incorporated in the website like asymetrical layouts and animations on scroll. 
 
