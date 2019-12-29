@@ -57,12 +57,15 @@ nav {
 .navbar-nav { 
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 630px;
+    padding-bottom: 70px;
 }
 
 @media (min-width: 768px){
     .navbar-nav {
         flex-direction: row; 
+        height: 525px;
+        padding-bottom: 0;
     } 
 }
 
@@ -71,6 +74,7 @@ nav {
     position: fixed;
     z-index: 9999;
 }
+
 
 
 .hamburger {
@@ -84,14 +88,16 @@ nav {
     } 
 }
 
-.navbar a{
-    color: black;
-}
 
 .navbar-toggler {
     position: absolute;
     left: 80vw;
     top: 20px;
+}
+
+.navbar-collapse {
+    background-color: rgba(255, 192, 203, 0.938);
+    border-radius: 0px 0px 0px 293px;
 }
 
 @media (min-width: 768px){
@@ -123,18 +129,40 @@ nav {
 }
 
 .navitem-pic a {
-    color: rgb(2, 44, 1);
+    color: rgb(46, 1, 1);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 27px;
     text-shadow: 1px 1px 1px #fcc8f5;
     font-family: "Radley", sans-serif;
     text-transform: uppercase;
+    transition: all 2s ease-in-out;
+     -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+
+
+.navitem-pic:hover a{
+    transform: scale(1.2,1.2);
+    text-decoration: none;
+    color: rgb(150, 25, 87);
+    
 }
 
 .navitem-pic img {
     width: 100%;
     border-radius: 50%;
 }
+
+@media (max-width: 767px){
+    .navitem-pic img {
+        margin-bottom: -20px;
+        text-align: center;
+        width: 170px;
+        font-size: 23px;
+    }
+} 
 
 .header-row {
     position: relative;
@@ -371,7 +399,7 @@ nav {
 
 .contact-bg {
     background-image: url("../images/price1.jpg");
-    background-size: 750px auto;
+    background-size: 790px auto;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position-x: 80%;
@@ -418,6 +446,20 @@ nav {
 
 .makeover {
     color: rgb(97, 9, 9);
+}
+
+.btn-secondary {
+    transition: all 2s ease-in-out;
+     -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+
+.btn-secondary:hover {
+    color: rgb(5, 5, 5);
+    background-color: #bd3f84;
+    border-color: #4b0530;
 }
 
 /* ---------------------------Footer */
