@@ -44,7 +44,7 @@ html,body
 /* -----------------------------Navbar */
 
 nav {
-    height: 680px;
+    height: 640px;
     width: 100vw;
 }
 
@@ -56,14 +56,14 @@ nav {
 
 @media (min-width: 768px){
     nav {
-        height: 900px;
+        height: 700px;
     } 
 }
 
 .navbar-nav { 
     justify-content: center;
     align-items: center;
-    height: 630px;
+    height: 600px;
     padding-bottom: 70px;
     padding-top: 55px;
 }
@@ -497,10 +497,11 @@ footer {
     font-size: 30px;
     color:  rgb(37, 37, 37);
     transition: all 1s ease-in-out;
-     -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    z-index: 3;
 }
 
 .social-links:hover i {
