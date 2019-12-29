@@ -496,7 +496,7 @@ footer {
 .social-links i {
     font-size: 30px;
     color:  rgb(37, 37, 37);
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
      -webkit-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -ms-transition: all 2s ease-in-out;
@@ -504,6 +504,6 @@ footer {
 }
 
 .social-links:hover i {
-    color: rgb(151, 141, 141);
+    color: rgb(202, 54, 123);
 }
 
