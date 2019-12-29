@@ -36,7 +36,7 @@ html,body
     .landing-page {
    height: 1400px;
     background-attachment: scroll;
-    background-size: 1444px;
+    background-size: cover;
     background-position-x: right;
     }
 }
@@ -368,14 +368,6 @@ nav {
 } 
 
 
-/* .pricelist-bg {
-    background-image: url("../images/salon2.jpg");
-    background-size: auto 1200px;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    min-height: 100%; 
-} */
-
 @media (min-width: 768px) {
     .pricelist-bg {
         background-size: cover;
@@ -425,7 +417,7 @@ nav {
 
  @media (min-width: 768px) {
     .contact-bg {
-        background-size: 1616px auto;
+        background-size: cover;
     }
 }
 
@@ -494,12 +486,7 @@ footer {
  @media (min-width: 768px) {
     .footer-social {
     margin-top: 10px;
-}
-}
-
-.social-links {
-    font-size: 26px;
-    color: black;
+    }
 }
 
 .list-inline-item:not(:last-child) {
@@ -509,4 +496,14 @@ footer {
 .social-links i {
     font-size: 30px;
     color:  rgb(37, 37, 37);
+    transition: all 2s ease-in-out;
+     -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
 }
+
+.social-links:hover i {
+    color: rgb(151, 141, 141);
+}
+
