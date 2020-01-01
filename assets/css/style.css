@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Prata|Radley&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Asap&display=swap: 100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap:100,200,300,400,500,600,700');
+
 
 html,body
 {
@@ -43,64 +43,21 @@ html,body
 
 /* -----------------------------Navbar */
 
-nav {
-    height: 640px;
+.navbar {
+    padding: 0 0;
+}
+
+.nav {
+    top: 0%;
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navcol {
+    padding: 0 0;
     width: 100vw;
 }
-
-.navbar {
-    flex-wrap: wrap-reverse;
-    align-items: unset;
-    padding: 0rem 0rem;
-}
-
-@media (min-width: 768px){
-    nav {
-        height: 700px;
-    } 
-}
-
-.navbar-nav { 
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    padding-bottom: 70px;
-    padding-top: 55px;
-}
-
-@media (min-width: 768px){
-    .navbar-nav {
-        flex-direction: row; 
-        height: 525px;
-        padding-bottom: 0;
-    } 
-}
-
-.navparent {
-    justify-content: flex-end;
-    position: fixed;
-    z-index: 9999;
-}
-
-
-
-.hamburger-inner {
-    height: 40px;
-}
-
-@media (min-width: 768px){
-    .hamburger-inner {
-        height: 65px;
-        width: 65px;
-    } 
-}
-
-.hamburger-box {
-    width: 100%;
-    display: inline-block;
-}
-
-
 
 .navbar-toggler {
     position: absolute;
@@ -108,51 +65,66 @@ nav {
     top: 20px;
 }
 
-
-.navbar-collapse {
-    background-color: rgba(179, 129, 137, 0.938);
-    border-radius: 0px 0px 0px 293px;
-}
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .navbar-toggler {
         left: 90vw;
     } 
 }
 
-.line {
-    width: 35px;
-    height: 5px;
-    background-color: rgb(224, 199, 52);
-    margin: 6px 0;
+
+.navbar-nav {
+    background-color: rgba(233, 195, 201, 0.938);
+    border-radius: 0px 0px 0px 160px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 @media (min-width: 768px){
-    .line {
-        width: 55px;
-        height: 8px;
-        margin: 8px 0;
-    }
-} 
-
-.line:hover {
-    background-color: gray;
+    .navbar-nav {
+        flex-direction: row; 
+        height: 600px;
+        padding-bottom: 0;
+    } 
 }
 
-.navitem-pic {
+
+
+.navitem {
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.navitem-pic a {
+@media (min-width: 768px){
+    .navitem {
+        padding-top: 100px;
+    } 
+}
+
+
+.navitem span {
+   background-color: white;
+    width: 175px;
+    height: 40px;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+   
+
+}
+
+.navitem a {
     color: rgb(46, 1, 1);
     font-weight: 700;
     font-size: 27px;
-    text-shadow: 1px 1px 1px #fcc8f5;
-    font-family: "Radley", sans-serif;
-    text-transform: uppercase;
+    font-family: "Prata", sans-serif;
     transition: all 2s ease-in-out;
      -webkit-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
@@ -161,20 +133,25 @@ nav {
 }
 
 
-.navitem-pic:hover a{
+.navitem:hover a {
     transform: scale(1.2,1.2);
     text-decoration: none;
     color: rgb(150, 25, 87);
-    
 }
 
-.navitem-pic img {
+@media (min-width: 768px){
+    .navitem a {
+        padding-bottom: 30px;
+    } 
+}
+
+.navitem img {
     width: 100%;
     border-radius: 50%;
 }
 
 @media (max-width: 767px){
-    .navitem-pic img {
+    .navitem img {
         margin-bottom: -20px;
         text-align: center;
         width: 170px;
@@ -182,10 +159,19 @@ nav {
     }
 } 
 
+@media (min-width: 768px){
+    .navitem img {
+        width: 340px;
+        height: 340px;
+    }
+} 
+
+
 .header-row {
     position: relative;
 }
 
+/* ------------------------------------------------brandname*/
 
 .brand-name {
   flex-direction: column;
@@ -212,6 +198,16 @@ nav {
         width: 40%;
     }
 }
+
+.mapsloc {
+  flex-direction: column;
+  text-align: right; 
+  width: 80%;
+  color:  rgb(243, 50, 146); 
+  font-family: 'Prata', sans-serif;
+  padding-top: 100px;
+} 
+
 
 
 /* ---------------------------------About Us */
@@ -306,12 +302,11 @@ nav {
 }
 
 
-.services h1{
+.services h1 {
     padding-left: 30px;
     font-weight: 400;
     background-color: rgba(255, 192, 203, 0.842);
     font-family: 'Radley', sans-serif;
-    text-align:
 }
 
 /* -------------------------------Carousel */
