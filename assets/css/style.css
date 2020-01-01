@@ -34,7 +34,7 @@ html,body
 
 @media (min-width: 768px){
     .landing-page {
-   height: 1400px;
+    height: 1000px;
     background-attachment: scroll;
     background-size: cover;
     background-position-x: right;
@@ -68,9 +68,9 @@ html,body
 @media (min-width: 768px) {
     .navbar-toggler {
         left: 90vw;
+        font-size: 2.5em;
     } 
 }
-
 
 .navbar-nav {
     background-color: rgba(233, 195, 201, 0.938);
@@ -93,8 +93,6 @@ html,body
     } 
 }
 
-
-
 .navitem {
     align-items: center;
     justify-content: center;
@@ -108,7 +106,6 @@ html,body
     } 
 }
 
-
 .navitem span {
    background-color: white;
     width: 175px;
@@ -116,8 +113,6 @@ html,body
     border-radius: 12px;
     display: inline-block;
     text-align: center;
-   
-
 }
 
 .navitem a {
@@ -175,38 +170,117 @@ html,body
 
 .brand-name {
   flex-direction: column;
-  text-align: right; 
-  width: 80%;
-  color:  rgb(243, 50, 146); 
+  width: 60%;
+  color:  rgb(197, 36, 116); 
   font-family: 'Prata', sans-serif;
-  padding-top: 100px;
+  padding-top: 78%;
+} 
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .brand-name {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 768px) {
+    .brand-name {
+        padding-top: 7%;
+        padding-left: 30px;
+    }
+}
+
+.name span, .title {
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 0 12px 12px 12px;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .name {
+        padding-top: 40%;
+        font-size: 46px;
+    }
+    .name span {
+        background-color: transparent;
+        font-size: 46px;
+    }
+    .title {
+        background-color: transparent;
+        font-size: 40px;
+    }
+
 } 
 
 @media (min-width: 768px) {
     .name {
         font-size: 80px;
         font-weight: 500;
-        color:  rgb(177, 41, 131); 
+        color:  rgb(141, 21, 101); 
         width: 40%;
         text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        background-color: transparent;
     }
     .title {
         font-size: 40px;
         text-shadow: 1px 1px 2px rgb(12, 12, 12);
         font-weight: 300;
-        color:  rgb(241, 121, 225); 
+        color:  rgb(218, 49, 153); 
         width: 40%;
+        background-color: transparent; 
     }
+}
+
+.maps {
+    justify-content: flex-end;
+    height: 100px;
+    align-items: flex-end;
 }
 
 .mapsloc {
   flex-direction: column;
   text-align: right; 
-  width: 80%;
-  color:  rgb(243, 50, 146); 
-  font-family: 'Prata', sans-serif;
-  padding-top: 100px;
-} 
+  font-family: 'Radley', sans-serif;
+  bottom: 10%;
+ 
+}
+
+@media (min-width: 768px) {
+    .mapsloc {
+        padding-top: 12%;
+        padding-right: 39px;
+    }
+}
+
+.mapsloc i {
+    color: #b3220f;
+    font-size: 100px;
+    text-shadow: 1px 1p 1px black;
+}
+
+@media (min-width: 768px) {
+    .mapsloc i {
+       padding-right: 40px;
+        font-size: 30vh;
+    }
+}
+
+.mapsloc h4 {
+    font-size: 200%;
+    color: #4b0530;
+    text-decoration: none;
+     background-color: rgba(255, 255, 255, 0.616);
+     text-align: center;
+     border-radius: 12px 12px;
+    transition: all 1s ease-in-out;
+     -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.mapsloc:hover h4 {
+    text-decoration: none;
+    color: rgb(139, 19, 109);
+}
 
 
 
@@ -253,21 +327,21 @@ html,body
 }
 
 @media (min-width: 600px) {
-.about-bg {
-    background-image: url("../images/salon1.png");
-    display: block;
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    height: 580px;
-    background-attachment: scroll;
-    margin-top: 50px;
-    margin-bottom: 50px
-    }
-.about-title {
-    width: 500px;
-    height: 100px;
-    padding-top: 30px;
+    .about-bg {
+        background-image: url("../images/salon1.png");
+        display: block;
+        background-position: center;
+        background-size: 70%;
+        background-repeat: no-repeat;
+        height: 580px;
+        background-attachment: scroll;
+        margin-top: 50px;
+        margin-bottom: 50px
+        }
+    .about-title {
+        width: 500px;
+        height: 100px;
+        padding-top: 30px;
     }
 }
 
@@ -295,7 +369,7 @@ html,body
 
 @media (min-width: 768px) {
     .service-carousel {
-        height: 700px;
+        height: 570px;
         margin-left: 45px;
 
     }
@@ -321,6 +395,12 @@ html,body
 
 .carousel-inner > .carousel-item > img { 
     height: 250px; 
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .carousel-inner > .carousel-item > img { 
+        height: 400px;
+    }
 }
 
 @media (min-width: 768px){
@@ -350,18 +430,25 @@ html,body
 }
 
 .pricelist-section {
-    height: 1160px;
+    height: 1180px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .pricelist-section {
-        height: 850px;
+        height: 1045px;
+        margin-top: 30px;
     }
     .pricelist-list-title {
         margin-top: 60px;
     }
 } 
 
+@media (min-width: 992px) {
+    .pricelist-section {
+        height: 886px;
+        margin-top: 30px;
+    }
+}
 
 @media (min-width: 768px) {
     .pricelist-bg {
@@ -388,16 +475,30 @@ html,body
     display: block;
     font-family: 'Radley', sans-serif;
     font-weight: 600;
-    font-size: 0,8em;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     color: rgb(73, 71, 71);  
     padding-bottom: 5px;
 }
 
+@media (min-width: 768px) and (max-width: 968px) {
+    .pricelist-item:before {
+        font-size: 12px;
+    }
+}
+
 
 .pricelist-list {
     flex-direction: row;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .pricelist-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 /* --------------------------------Contact */
