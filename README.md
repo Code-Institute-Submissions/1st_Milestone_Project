@@ -22,9 +22,9 @@ While making this website, I envisioned the salon's interior and services.
 
 * As an OWNER, I want customers to book a call.
 
-<a href="../mockup_wireframe/mockup.jpg">Mockup</a>
+<a href="/mockup_wireframe/mockup.jpg">Mockup</a>
 
-<a href="../mockup_wireframe/wireframe.jpg">Wireframe</a>
+<a href="/mockup_wireframe/wireframe.jpg">Wireframe</a>
 
 ---
 
