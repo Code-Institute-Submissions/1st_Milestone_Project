@@ -1,19 +1,21 @@
 First Milestone Project: 
+--------
 
    A Salon Website with HTML and CSS 
+   ================
 
 
 https://loulunds.github.io/1st_Milestone_Project/
 
-_______________UX_______________
+UX
+-----------
 
---Pure Ambitions Salon
+###Pure Ambitions Salon
 
 A salon, in a neighborhood in Östermalm, Stockholm, needs an upgrade. 
-The salon's present website does not reflect the salon's over-all identity.
 While making this website, I envisioned the salon's interior their services.
 
-USER STORIES
+###USER STORIES
 
 -As a CUSTOMER, I want to have a feel of the salon's interior and services. 
 (I thought about focusing on this because almost all salons offer the same services. 
@@ -23,8 +25,8 @@ What should set this salon apart is how its website is presented.)
 (By reflecting the salon throught the website, customers can become more interested in booking a call
 and leaving their contact details.)
 
-
-_____________FEATURES_____________
+FEATURES
+---------------
 
 EXISTING FEATURES
 
