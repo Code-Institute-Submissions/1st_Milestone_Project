@@ -1,43 +1,50 @@
 First Milestone Project: 
---------
-
-   A Salon Website with HTML and CSS 
-   ================
-
 
 https://loulunds.github.io/1st_Milestone_Project/
+
+--------
+
+---
+A Salon Website with HTML and CSS
+===
 
 UX
 -----------
 
-###Pure Ambitions Salon
+_**Pure Ambitions Salon**_
 
 A salon, in a neighborhood in Östermalm, Stockholm, needs an upgrade. 
-While making this website, I envisioned the salon's interior their services.
+While making this website, I envisioned the salon's interior and services.
 
-###USER STORIES
+_USER STORIES_
 
--As a CUSTOMER, I want to have a feel of the salon's interior and services. 
-(I thought about focusing on this because almost all salons offer the same services. 
-What should set this salon apart is how its website is presented.)
+* As a CUSTOMER, I want to get the feel of the salon. 
 
--As an OWNER, I want customers to book a call.
-(By reflecting the salon throught the website, customers can become more interested in booking a call
-and leaving their contact details.)
+* As an OWNER, I want customers to book a call.
+
+<a href="file:///workspace/1st_Milestone_Project/mockup_wireframe/mockup.jpg">Mockup</a>
+
+<a href="file:///workspace/1st_Milestone_Project/mockup_wireframe/wireframe.jpg">Wireframe</a>
+
+---
 
 FEATURES
 ---------------
 
-EXISTING FEATURES
+_EXISTING FEATURES_
 
-Carousel for images from Bootstrap
-Animate on Scroll 
+* Carousel for images from Bootstrap
 
-FEATURES LEFT TO IMPLEMENT
+* Animate on Scroll 
 
-A photo gallery for the salon's works
+_FEATURES LEFT TO IMPLEMENT_
 
-__________TECHNOLOGIES USED__________
+* A photo gallery for the salon's works (optional because of Instagram)
+
+---
+
+TECHNOLOGIES USED
+--------------
 
 1. HTML
 2. CSS
@@ -47,13 +54,13 @@ __________TECHNOLOGIES USED__________
 6. Font Awesome 4.7.0
 
 
-________________TESTING________________
+_TESTING_
 
 
 
-_______________DEPLOYMENT_______________
+_DEPLOYMENT_
 
-_________________CREDITS_________________
+_CREDITS_
 
 MEDIA
 
