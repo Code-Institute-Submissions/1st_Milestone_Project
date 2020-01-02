@@ -22,6 +22,7 @@ html,body
 
 
 /* ----------------------------------------Landing Page */
+
 .landing-page {
     background-image: url("../images/kkV0LO4%20-%20Imgur.jpg");
     background-position: top;
@@ -41,7 +42,132 @@ html,body
     }
 }
 
-/* -----------------------------Navbar */
+/* ---------------------------------------------brandname*/
+
+.brand-name {
+  flex-direction: column;
+  width: 60%;
+  color:  rgb(197, 36, 116); 
+  font-family: 'Prata', sans-serif;
+  padding-top: 70%;
+} 
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .brand-name {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 768px) {
+    .brand-name {
+        padding-top: 7%;
+        padding-left: 30px;
+    }
+}
+
+.name span, .title {
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 0 12px 12px 12px;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .name {
+        padding-top: 40%;
+        font-size: 46px;
+    }
+    .name span {
+        background-color: transparent;
+        font-size: 46px;
+    }
+    .title {
+        background-color: transparent;
+        font-size: 40px;
+    }
+
+} 
+
+@media (min-width: 768px) {
+    .name {
+        font-size: 85px;
+        font-weight: 500;
+        color:  rgb(141, 21, 101); 
+        width: 40%;
+        text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        background-color: transparent;
+    }
+    .title {
+        font-size: 45px;
+        text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        font-weight: 300;
+        color:  rgb(218, 49, 153); 
+        width: 40%;
+        background-color: transparent; 
+    }
+}
+
+.maps {
+    justify-content: flex-end;
+    height: 100px;
+    align-items: flex-end;
+}
+
+.mapsloc {
+  flex-direction: column;
+  text-align: right; 
+  font-family: 'Radley', sans-serif;
+  bottom: 10%;
+ 
+}
+
+@media (min-width: 768px) {
+    .mapsloc {
+        padding-top: 12%;
+        padding-right: 39px;
+    }
+}
+
+.mapsloc i {
+    color: #b3220f;
+    font-size: 100px;
+    text-shadow: 1px 1p 1px black;
+}
+
+@media (min-width: 768px) {
+    .mapsloc i {
+       padding-right: 40px;
+        font-size: 23vh;
+    }
+}
+
+.mapsloc h4 {
+    font-size: 159%;
+    color: #4b0530;
+    text-decoration: none;
+     background-color: rgba(255, 255, 255, 0.753);
+     text-align: center;
+     border-radius: 12px 12px;
+    transition: all 1s ease-in-out;
+     -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+
+
+.mapsloc:hover h4 {
+    text-decoration: none;
+    color: rgb(139, 19, 109);
+}
+
+
+@media (min-width: 768px) {
+    .mapsloc h4 {
+        font-size: 45px;
+    }
+}
+
+/* --------------------------------------Navbar */
 
 .navbar {
     padding: 0 0;
@@ -175,132 +301,6 @@ html,body
 .header-row {
     position: relative;
 }
-
-/* ------------------------------------------------brandname*/
-
-.brand-name {
-  flex-direction: column;
-  width: 60%;
-  color:  rgb(197, 36, 116); 
-  font-family: 'Prata', sans-serif;
-  padding-top: 70%;
-} 
-
-@media (min-width: 500px) and (max-width: 767px) {
-    .brand-name {
-        padding-top: 30%;
-    }
-}
-
-@media (min-width: 768px) {
-    .brand-name {
-        padding-top: 7%;
-        padding-left: 30px;
-    }
-}
-
-.name span, .title {
-    background-color: rgba(255, 255, 255, 0.733);
-    border-radius: 0 12px 12px 12px;
-}
-
-@media (min-width: 500px) and (max-width: 767px) {
-    .name {
-        padding-top: 40%;
-        font-size: 46px;
-    }
-    .name span {
-        background-color: transparent;
-        font-size: 46px;
-    }
-    .title {
-        background-color: transparent;
-        font-size: 40px;
-    }
-
-} 
-
-@media (min-width: 768px) {
-    .name {
-        font-size: 85px;
-        font-weight: 500;
-        color:  rgb(141, 21, 101); 
-        width: 40%;
-        text-shadow: 1px 1px 2px rgb(12, 12, 12);
-        background-color: transparent;
-    }
-    .title {
-        font-size: 45px;
-        text-shadow: 1px 1px 2px rgb(12, 12, 12);
-        font-weight: 300;
-        color:  rgb(218, 49, 153); 
-        width: 40%;
-        background-color: transparent; 
-    }
-}
-
-.maps {
-    justify-content: flex-end;
-    height: 100px;
-    align-items: flex-end;
-}
-
-.mapsloc {
-  flex-direction: column;
-  text-align: right; 
-  font-family: 'Radley', sans-serif;
-  bottom: 10%;
- 
-}
-
-@media (min-width: 768px) {
-    .mapsloc {
-        padding-top: 12%;
-        padding-right: 39px;
-    }
-}
-
-.mapsloc i {
-    color: #b3220f;
-    font-size: 100px;
-    text-shadow: 1px 1p 1px black;
-}
-
-@media (min-width: 768px) {
-    .mapsloc i {
-       padding-right: 40px;
-        font-size: 23vh;
-    }
-}
-
-.mapsloc h4 {
-    font-size: 159%;
-    color: #4b0530;
-    text-decoration: none;
-     background-color: rgba(255, 255, 255, 0.753);
-     text-align: center;
-     border-radius: 12px 12px;
-    transition: all 1s ease-in-out;
-     -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-}
-
-
-
-.mapsloc:hover h4 {
-    text-decoration: none;
-    color: rgb(139, 19, 109);
-}
-
-
-@media (min-width: 768px) {
-    .mapsloc h4 {
-        font-size: 45px;
-    }
-}
-
 
 /* ---------------------------------About Us */
 
