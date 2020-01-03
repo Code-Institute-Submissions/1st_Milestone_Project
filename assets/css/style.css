@@ -190,6 +190,35 @@ html,body
 }
 
 /* --------------------------------------Navbar */
+.flagga {
+   position: absolute;
+    right: 16%;
+    top: 20px;
+    height: 42px;
+    width: 54px;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .flagga {
+         right: 117px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1134px) {
+    .flagga {
+    left: 73%;
+    height: 77px;
+    width: 82px;
+    }
+}
+
+@media (min-width: 1135px) {
+    .flagga {
+    left: 80%;
+    height: 88px;
+    width: 111px;
+    }
+}
 
 .navbar {
     padding: 0 0;
@@ -209,7 +238,7 @@ html,body
 
 .navbar-toggler {
     position: absolute;
-    left: 80vw;
+    left: 83vw;
     top: 20px;
     background-color: rgba(150, 132, 132, 0.445);
     transition: all 1s ease-in-out;
@@ -219,9 +248,15 @@ html,body
     -o-transition: all 1s ease-in-out;
 }
 
+@media (min-width: 500px) and (max-width: 767px) {
+    .navbar-toggler {
+        left: 86vw; 
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1134px) {
     .navbar-toggler {
-        left: 85vw;
+        left: 87vw;
         font-size: 2.5em;
         
     }
