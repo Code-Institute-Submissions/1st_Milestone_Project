@@ -58,18 +58,22 @@ FEATURES
 TESTING
 ----
 
+Intentions for customer user story was reached by styling the website in such a way that it reflects the salon's environment.
+Intentions for owner user story was reached by making a form and providing a ``form control`` for required input. 
 
-
-Google maps link opens to the street address of the salon.
+Contact form has `form control` to make users input required texts. There is an issue with the Phonenumber input because it cannot check for letters. I just provided a `min-length`
+and `max-length` just to have some control. The `Book a Call button` does not have a `form action` ans cannot send form inputs. 
 
 All external links in the footer will open in a new tab, the navbar links will not; thus will open the chosen part of the website. 
+
+Google maps link opens to the street address of the salon.
 
 The _**Animate on Scroll**_ effect will function upon scrolling upwards and downwards and upon opening a link from navbar.
 
 The _**Carousel for images**_ automatically srolls the images but the scroll buttons on both sides can make users scroll manually.
 
-The site was tested on multiple browsers (Chrome, Internet Explorer, Firefox) and on multiple devices (Samsung Note and Galaxy, Samsung tablet, Iphone 8, Ipad) to ensure compatibility and reponsiveness. 
-During the testing phase...
+The site was tested on multiple browsers (Chrome, Internet Explorer, Safari) and on multiple devices (Samsung Note and Galaxy, Samsung galaxy tab, Iphone 5, Ipad) to ensure compatibility and reponsiveness. 
+During the testing phase, there was no issues regarding responsiveness but there was a layout problem on Samsung tab for the Google maps location. 
 
 ---
 
