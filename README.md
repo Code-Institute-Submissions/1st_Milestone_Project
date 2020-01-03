@@ -16,6 +16,8 @@ _**Pure Ambitions Salon**_
 A salon, in a neighborhood in Östermalm, Stockholm, needs an upgrade. 
 While making this website, I envisioned the salon's interior and services.
 
+For english and swedish-speaking customers.
+
 **USER STORIES**
 
 * As a CUSTOMER, I want to get the feel of the salon. 
@@ -55,6 +57,10 @@ FEATURES
 ---
 TESTING
 ----
+
+
+
+Google maps link opens to the street address of the salon.
 
 All external links in the footer will open in a new tab, the navbar links will not; thus will open the chosen part of the website. 
 

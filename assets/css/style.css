@@ -528,6 +528,7 @@ html,body
 @media (min-width: 500px) and (max-width: 767px) {
     .carousel-inner > .carousel-item > img { 
         height: 400px;
+        padding-left: 30px;
     }
 }
 
@@ -540,6 +541,7 @@ html,body
     .carousel-inner > .carousel-item > img {
         height: 500px;
         padding-bottom: 10px;
+        padding-left: 40px;
     }    
 }
 
